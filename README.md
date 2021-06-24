@@ -22,3 +22,8 @@ Note: doing a `git pull` will give:
 git pull
 fatal: Not possible to fast-forward, aborting.
 ```
+
+Fix:
+
+`git rebase origin/main`
+
