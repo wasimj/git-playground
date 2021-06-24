@@ -25,5 +25,6 @@ fatal: Not possible to fast-forward, aborting.
 
 Fix:
 
-`git rebase origin/main`
+`git reset --hard origin/main`
 
+This resets your local `main` branch to `origin/main`.
